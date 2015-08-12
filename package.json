@@ -1,5 +1,5 @@
 {
-  "name": "jade",
+  "name": "jade-templates",
   "version": "1.0.0",
   "description": "jade templates",
   "main": "app.js",
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/smithln/jade#readme",
   "dependencies": {
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "jade": "^1.11.0"
   }
 }

@@ -1,3 +1,3 @@
-# Jade
+# Jade Templates
 
-Explores jade templating
+For exploring :rocket:
