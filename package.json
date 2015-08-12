@@ -1,0 +1,26 @@
+{
+  "name": "jade",
+  "version": "1.0.0",
+  "description": "jade templates",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smithln/jade.git"
+  },
+  "keywords": [
+    "jade",
+    "npm"
+  ],
+  "author": "Lauren Nicole Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smithln/jade/issues"
+  },
+  "homepage": "https://github.com/smithln/jade#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
