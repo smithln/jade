@@ -2,15 +2,84 @@ doctype html
 html(lang="en")
   head
     title= pageTitle
-    script(type='text/javascript').
-      if (foo) bar(1 + 5)
-  body
-    h1 Jade - node template engine
-    #container.col
-      if youAreUsingJade
-        p You are amazing
-      else
-        p Get on it!
-      p.
-        Jade is a terse and simple templating language with a
-        strong focus on performance and powerful features.
+  body.story
+    header(role="header")
+      a.logo(title="ATTN:")
+      nav
+        ul
+          li I am the menu
+          li I am the search bar
+        ul
+          li I am the facebook
+          li I am the twitter
+          li I am the youtube
+          
+    section.featured
+      div.featured__image
+        a: img
+      div.featured__taxonomy
+        span I am the taxonomy
+                
+    main(role="main")
+      section
+        article
+          header
+            h1 This is the title of the story
+          div
+            //-these are meta attributes
+            div
+              span I am the date
+            div
+              span I am the author       
+          section.body
+            p this is the story body 
+            p it has many paragraphs
+            p for real though   
+          aside
+            article
+              a: img
+              header
+                h2 This is the popular story title
+                span This is supplemental information, like an author or taxonomy
+            article
+              a: img
+              header
+                h2 This is the popular story title
+                span This is supplemental information, like an author or taxonomy
+          footer
+          
+      section
+        article
+          a: img
+          header
+            h2 I am the related story title
+            span This is supplemental information, like an author or taxonomy
+            span This is supplemental information, like an author or taxonomy
+        article
+          a: img
+          header
+            h2 I am the related story title
+            span This is supplemental information, like an author or taxonomy
+            span This is supplemental information, like an author or taxonomy
+                
+      footer(role="footer")
+        nav
+          ul
+            li 
+            li
+            li
+          ul
+            li
+            li
+            li
+          ul
+            form
+          ul
+            li
+            li
+            li
+        div.logo--footer
+          a.logo
+        div.copyright
+          p
+          a: p
